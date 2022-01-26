@@ -1,0 +1,22 @@
+GET http://localhost:5000/users
+
+###
+
+POST http://localhost:5000/users/new_user
+Content-Type: application/json
+{
+    "firstname": "Obinna",
+    "othername": "Oseze",
+    "sex": "M",
+    "age": "30"
+}
+
+###
+
+POST http://localhost:5000/users/update/61f015bdf986a50701b76318
+{
+    "firstname": "Godwin",
+    "othername": "Micheal",
+    "sex": "Male",
+    "age": "27"
+}
